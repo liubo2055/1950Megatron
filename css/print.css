@@ -1,0 +1,47 @@
+    html, body {
+        background: #ffffff;
+        color: #000;
+    }
+
+    header {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #wrap {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+
+    h1, h2 {
+        page-break-after: avoid;
+    }
+
+    article {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #3f4f5f;
+    }
+
+
+    a[href^=http]:after {
+      content:" <" attr(href) "> ";
+        font-style: italic;    
+    }
+
+    figure {
+        margin: 0;
+    }
