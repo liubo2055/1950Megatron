@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>COMP 1950 - Web Development 2</title>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <!-- Google Code Prettify -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+    <script type="text/javascript"> $.SyntaxHighlighter.init(); </script>
+    <!-- Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+    <style type="text/css" media="screen"></style>
+    <!-- Sidr -->
+    <script src="js/jquery.sidr.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="js/stylesheets/jquery.sidr.light.css">
+    <!-- Extra Javascript if necessary -->
+    <script>
+            $(document).ready(function(){
+                $('#sidrtoggle').sidr()
+            });
+        
+    </script>
+</head>
+<body>
+    <header>
+        <h1>COMP 1950 <small>Web Development 2</small></h1>
+        <label id="sidrtoggle"><a href="#">SidrToggle</a></label>
+    </header>
+    <div id="wrap">
+        <article id="sidebar">
+            <h2>Agenda</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vel magna.</p>
+            <ul>
+                <li><a href="/">Link 1</a></li>
+                <li><a href="/">Link 2</a></li>
+                <li><a href="/">Link 3</a></li>
+                <li><a href="/">Link 4</a></li>
+                <li><a href="/">Link 5</a></li>
+                <li><a href="/">Link 6</a></li>
+                <li><a href="/">Link 7</a></li>
+                <li><a href="/">Link 8</a></li>
+                <li><a href="/">Link 9</a></li>
+                <li><a href="/">Link 10</a></li>
+                <li><a href="/">Link 11</a></li>
+                <li><a href="/">Link 12</a></li>
+                <li><a href="/">Link 13</a></li>
+                <li><a href="/">Link 14</a></li>
+                <li><a href="/">Link 15</a></li>
+            </ul>
+        </article><!-- /article#sidebar -->
+        <article id="main">
+            <h2 id="1">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisl diam, eleifend ut hendrerit id, laoreet et nisi. Etiam sit amet mauris at lorem vulputate feugiat ac quis turpis. Sed in dolor et urna fermentum mollis. Ut tempus lectus id eleifend commodo. Mauris volutpat sodales est, a consequat nibh dapibus tristique. Suspendisse leo eros, congue in tempor vel, ullamcorper vitae dolor. Morbi semper mi enim, non fermentum ipsum suscipit nec. Etiam et ante at risus pharetra rutrum. Aenean rutrum eros et tristique blandit. Donec fringilla, velit et congue interdum, justo nisi condimentum risus, nec posuere elit urna non magna. Quisque eu sapien eu lorem euismod pulvinar id eget massa. Fusce sed nunc purus. Donec tortor nisi, molestie id faucibus in, hendrerit eu sem. Cras at nulla sit amet sem consectetur pharetra sit amet vel nunc. Sed id tellus lobortis, malesuada metus non, accumsan dui.</p>
+
+            <p>Curabitur pharetra neque arcu, id viverra ante dapibus at. Aliquam id posuere elit. In ultricies auctor molestie. Vestibulum non felis eros. Fusce cursus ipsum tellus, et sodales lacus sagittis sit amet. Nam vulputate ultrices ante, ut consectetur erat aliquet suscipit. Sed sagittis dignissim urna. Nulla facilisi. Curabitur lacinia mauris eu nunc pretium, sit amet tempor nibh consectetur.</p>
+
+            <p>Suspendisse potenti. Phasellus euismod nisi et lectus lobortis, nec ullamcorper ligula pretium. Duis rutrum quis est sed volutpat. Cras quis tellus sed augue egestas auctor sit amet eu tortor. Vivamus sem felis, condimentum id hendrerit rhoncus, posuere sed magna. Cras et maximus quam. Donec tincidunt et dui non volutpat. Suspendisse scelerisque, nunc sit amet consectetur ullamcorper, ex mi finibus elit, ut venenatis augue eros gravida ante.</p>
+
+            <h2 id="2">Curabitur</h2>
+            <p>Curabitur nunc sapien, sodales eu facilisis et, placerat feugiat arcu. Mauris rhoncus metus mauris, sit amet scelerisque mauris posuere nec. Donec id dolor vitae tortor vulputate fermentum at eget odio. Aliquam rhoncus ex massa. Suspendisse rhoncus lorem sed urna pharetra lobortis. Nulla vel mauris massa. Donec dictum tincidunt mattis. Integer tincidunt nec massa et mattis. Vestibulum blandit, arcu et sagittis pretium, enim velit condimentum ex, eu tristique mi diam sed orci. Vestibulum pellentesque feugiat leo. Pellentesque ipsum quam, vulputate auctor sagittis id, ullamcorper quis augue.</p>
+            
+            <h2 id="3">Code Example</h2>
+<!-- NOTE: CODE IS TAB SENSITIVE. IT NEEDS TO BE LEFT ALIGNED AS FAR AS POSSIBLE -->
+<pre class="prettyprint linenums">
+
+    // Define our Function
+    function checkMeaningOfLife ( decimal, success ) {
+        if ( parseInt(decimal,10) === 42 ) {
+            window.console.log(success);
+        }
+    };
+    // Define our Variables
+    var str = 'The meaning of life is true',
+        decimal = 42.00;
+    // Fire our Function
+    checkMeaningOfLife(decimal,success);
+</pre>
+
+            <p>Sed efficitur leo odio, at blandit neque volutpat eget. Vestibulum lacinia nibh ac dui vestibulum, sed vestibulum ligula fringilla. Suspendisse consequat ipsum elit, et sollicitudin justo consectetur id. In facilisis neque tellus, a malesuada nibh aliquet vitae. Duis congue justo sed metus lobortis elementum. Maecenas porta nisi in tellus condimentum finibus. In a posuere odio, at tempor urna. Donec eget placerat nibh, non molestie leo. Etiam eget arcu commodo, condimentum ante in, tincidunt felis. In imperdiet lacus vitae libero venenatis, eu facilisis arcu dictum. Vivamus imperdiet augue vel mi tincidunt mattis. Maecenas blandit sem ac lectus imperdiet, vel bibendum ipsum sagittis. Cras turpis urna, aliquet quis libero non, rutrum semper arcu. Donec quis metus id lacus ullamcorper elementum. Integer a sem accumsan, imperdiet ex vitae, accumsan ante.</p>
+            <p>Something else.</p>
+            
+            <hr />
+            <h2>Comments</h2>
+            <p>Insert comments plugin here.</p>
+            
+        </article><!-- /article#main -->
+        <article id="extrainfo">
+            <h2>Extra Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vel magna.</p>
+        </article><!-- /article#extrainfo -->
+    </div>
+	<footer>
+		<p>Footer</p>
+        <p class="validate"><a href="http://validator.w3.org/check?uri=referer">Validate me!</a></p>
+	</footer>
+    <!-- Sidr menu on the left hand side -->
+    <div id="sidr">
+        <br />
+        <p class="container">Course details, news, notes, assignments, and anything else.</p>
+        <ul>
+            <li><a href="#">Week 1</a></li>
+            <li><a href="#">Week 2</a></li>
+            <li><a href="#">Week 3</a></li>
+            <li><a href="#">Week 4</a></li>
+            <li><a href="#">Week 5</a></li>
+            <li><a href="#">Week 6</a></li>
+        </ul>
+    </div><!-- /div#sidr -->
+</body>
+</html>
