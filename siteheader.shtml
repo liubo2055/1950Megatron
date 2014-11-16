@@ -1,0 +1,4 @@
+<header id="siteheader">
+    <!--#include file="sitenav.shtml" -->
+    <h2 id="sitetitle"><a href="index.html">COMP 1950 Web Develepment 2</a></h2>
+</header>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons content">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="#wrap">
+    <!--#include file="siteheader.shtml" -->
+
+    <p>contect here</p>
+
+    <!--#include file="sitefooter.shtml" -->
+</div><!-- /div#wrap -->
+</body>
+</html>
