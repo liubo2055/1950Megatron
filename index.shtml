@@ -6,12 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Google Code Prettify -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+    <script type="text/javascript"> $.SyntaxHighlighter.init(); </script>
 </head>
 <body>
-<div id="#wrap">
     <!--#include file="siteheader.shtml" -->
+    <div id="wrap">
+        <section id="sidebar">
+            <h3>Agenda:</h3>
+            <nav id="pagenav">
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#morestuff">More stuff</a></li>
+                    <li><a href="#codeexample">Code Example</a></li>
+                    <li><a href="#somemore">Some more</a></li>
+                    <li><a href="#lastbit">Last bit</a></li>
+                </ul>
+            </nav>
+        </section>
 
-    <p>contect here</p>
+        <section id="main">
+            <article id="intro">
+                <h2>Introduction</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
+                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
+                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
+                    Maecenas a augue in orci auctor congue at ut metus.
+                    Maecenas varius sem et tincidunt volutpat.
+                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
+                </p>
+            </article>
+
+            <article id="morestuff">
+                <h2>More stuff</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
+                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
+                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
+                    Maecenas a augue in orci auctor congue at ut metus.
+                    Maecenas varius sem et tincidunt volutpat.
+                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
+                </p>
+            </article>
+
+            <article id="codeexample">
+                <h2 id="3">Code Example</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus.
+                </p>
+<!-- NOTE: CODE IS TAB SENSITIVE. IT NEEDS TO BE LEFT ALIGNED AS FAR AS POSSIBLE -->
+<pre class="prettyprint linenums">
+
+    // Define our Function
+    function checkMeaningOfLife ( decimal, success ) {
+        if ( parseInt(decimal,10) === 42 ) {
+            window.console.log(success);
+        }
+    };
+    // Define our Variables
+    var str = 'The meaning of life is true',
+        decimal = 42.00;
+    // Fire our Function
+    checkMeaningOfLife(decimal,success);
+</pre>
+            </article>
+
+            <article id="somemore">
+                <h2>Some more</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
+                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
+                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
+                    Maecenas a augue in orci auctor congue at ut metus.
+                    Maecenas varius sem et tincidunt volutpat.
+                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
+                </p>
+            </article>
+
+            <article id="lastbit">
+                <h2>Last bit</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
+                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
+                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
+                    Maecenas a augue in orci auctor congue at ut metus.
+                    Maecenas varius sem et tincidunt volutpat.
+                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
+                </p>
+            </article>
+        </section>
+
+        <section id="comments">
+            <h2>Comments:</h2>
+            <article id="comment">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
+                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
+                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
+                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
+                </p>
+            </article>
+        </section>
 
     <!--#include file="sitefooter.shtml" -->
 </div><!-- /div#wrap -->

@@ -1,47 +1,55 @@
-    html, body {
-        background: #ffffff;
-        color: #000;
-    }
+html, body {
+    background: #ffffff;
+    color: #000;
+}
 
-    header {
-        display: none;
-    }
+header#siteheader{
+    display: none;
+}
 
-    nav {
-        display: none;
-    }
+nav#sitenav{
+    display: none;
+}
 
-    #wrap {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        float: none;
-    }
+#wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
 
-    @page {
-        margin: 2cm;
-    }
+@page {
+    margin: 2cm;
+}
 
-    h1, h2 {
-        page-break-after: avoid;
-    }
+h1, h2 {
+    page-break-after: avoid;
+}
 
-    article {
-        page-break-inside: avoid;
-    }
+article {
+    page-break-inside: avoid;
+}
 
-    a {
-        text-decoration: none;
-        font-weight: bolder;
-        color: #3f4f5f;
-    }
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #3f4f5f;
+}
 
 
-    a[href^=http]:after {
-      content:" <" attr(href) "> ";
-        font-style: italic;    
-    }
+a[href^=http]:after {
+  content:" <" attr(href) "> ";
+    font-style: italic;
+}
 
-    figure {
-        margin: 0;
-    }
+figure {
+    margin: 0;
+}
+
+section#comments{
+    display:none;
+}
+
+pre{
+    border: 1px solid black;
+}

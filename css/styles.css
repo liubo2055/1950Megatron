@@ -1,0 +1,8 @@
+
+/* SCREEN */
+@import url("common.css");
+@import url("screen_max_360px.css") only screen and (max-width: 360px);
+@import url("screen_min_361px.css") only screen and (min-width: 361px);
+
+/* PRINT */
+@import url("print.css") print;
