@@ -116,14 +116,19 @@
         <section id="comments">
             <h2>Comments:</h2>
             <article id="comment">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
-                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
-                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
-                </p>
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'liubo'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             </article>
         </section>
 
