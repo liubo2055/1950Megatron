@@ -32,16 +32,22 @@
     text-align: left;
 }
 
-#project-content {
-    padding-left: 50px;
+#rationale-content p{
+    margin-left: 20px;
 }
 
-#rationale-content {
-    padding-left: 50px;
-}
+@media only screen and (min-width: 1220px){
+    #project-content {
+        padding-left: 50px;
+    }
 
-#sidebar {
-    position:fixed;
-    top:70px;
-    right:30px;
+    #rationale-content {
+        padding-left: 50px;
+    }
+
+    #sidebar {
+        position:fixed;
+        top:70px;
+        right:30px;
+    }
 }

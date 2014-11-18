@@ -89,133 +89,151 @@
         <article id="project">
             <div class="entry-title">
                 <h2>Project</h2>
+
                 <p>--using all methods and techniques learned throughout the course to redesign COMP1950 website </p>
             </div>
             <div id="project-content">
-            <div class="row member">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <h3>Project Goals:</h3>
-                    <ul>
-                        <li>easier homework, notes, code repo accessibility</li>
-                        <li>responsive on all devices</li>
-                        <li>neat, content first</li>
-                        <li>simple to navigate throughout</li>
-                    </ul>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <h3>Coordinated Work</h3>
-                    <ul>
-                        <li>Project Methodology</li>
-                        <li>Project Plan</li>
-                        <li>Code Reviews</li>
-                        <li>Testing</li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <h3>Individual Contributions</h3>
-            <ul>
                 <div class="row member">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <li>Kevin Carrasco(chair)
-                            <ul>
-                                <li>Project Management</li>
-                                <li>Nav Menu in CSS</li>
-                                <li>Tumblr theme</li>
-                            </ul>
-                        </li>
+                        <h3>Project Goals:</h3>
+                        <ul>
+                            <li>easier homework, notes, code repo accessibility</li>
+                            <li>responsive on all devices</li>
+                            <li>neat, content first</li>
+                            <li>simple to navigate throughout</li>
+                        </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <li>Bo Liu
-                            <ul>
-                                <li>Rational page</li>
-                                <li>Introduction page</li>
-                                <li>Disqus integration</li>
-                            </ul>
-                        </li>
+                        <h3>Coordinated Work</h3>
+                        <ul>
+                            <li>Project Methodology</li>
+                            <li>Project Plan</li>
+                            <li>Code Reviews</li>
+                            <li>Testing</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row member">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <li>Ryan Allan
-                            <ul>
-                                <li>Skeleton of the site</li>
-                                <li>Jquery back to top button</li>
-                            </ul>
-                        </li>
+
+
+                <h3>Individual Contributions</h3>
+                <ul>
+                    <div class="row member">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <li>Kevin Carrasco(chair)
+                                <ul>
+                                    <li>Project Management</li>
+                                    <li>Nav Menu in CSS</li>
+                                    <li>Tumblr theme</li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <li>Bo Liu
+                                <ul>
+                                    <li>Rational page</li>
+                                    <li>Introduction page</li>
+                                    <li>Disqus integration</li>
+                                </ul>
+                            </li>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <li>Fariba Dabbaghi
-                            <ul>
-                                <li>Wireframes</li>
-                                <li>Sitemap</li>
-                            </ul>
-                        </li>
+                    <div class="row member">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <li>Ryan Allan
+                                <ul>
+                                    <li>Skeleton of the site</li>
+                                    <li>Jquery back to top button</li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <li>Fariba Dabbaghi
+                                <ul>
+                                    <li>Wireframes</li>
+                                    <li>Sitemap</li>
+                                </ul>
+                            </li>
+                        </div>
                     </div>
-                </div>
-            </ul>
+                </ul>
             </div>
-</article>
+        </article>
 
-<article id="rationale">
-    <div class="entry-title">
-        <h2 id="3">Rationale</h2>
-        <p>--an explanation of controlling principles, opinions, and beliefs of our web design & development</p>
-    </div>
-    <div id="rational-content">
-    <h3>Redesign</h3>
-    <p>We are redesigning in a neat way and focusing <em>only<em> on ease of content. We believe the lecture notes are the main pillar of the website, so we've strove to keep the tutorial information clear as well as structure the site and page navigation in a way that is easy to use, helping the student to find information in a simple and fast manner. All lectures are chronological and broken down into smaller sub-groups, respectively.</p>
+        <article id="rationale">
+            <div class="entry-title">
+                <h2>Rationale</h2>
+                <p>--an explanation of controlling principles, opinions, and beliefs of our web design & development</p>
+            </div>
+            <div id="rationale-content">
+                <h3>Redesign</h3>
 
-    <h3>Funtionality</h3>
-    <p>All funtionality are related to the lecture notes, such as a search feature, resource links and code examples on each page for students to further seek out information related to their topic at hand, and an interactive disqus comment area for improving lecture notes.</p>
+                <p>We are redesigning in a neat way and focusing <em>only</em> on ease of content. We believe the lecture
+                    notes are the main pillar of the website, so we've strove to keep the tutorial information clear as
+                    well as structure the site and page navigation in a way that is easy to use, helping the student to
+                    find information in a simple and fast manner. All lectures are chronological and broken down into
+                    smaller sub-groups, respectively.</p>
 
-    <p>We've intentionally decided to forego the use of fancy images, multimedia content, and anything other than what helps to achieve the goal of the site: to deliver students information.</p>
+                <h3>Funtionality</h3>
 
-    <h3>News</h3>
+                <p>All funtionality are related to the lecture notes, such as a search feature, resource links and code
+                    examples on each page for students to further seek out information related to their topic at hand,
+                    and an interactive disqus comment area for improving lecture notes.</p>
 
-    <p>A tumblr blog was incorporated as a way for students to stay updated about current comings-and-goings of the class.</p>
+                <p>We've intentionally decided to forego the use of fancy images, multimedia content, and anything other
+                    than what helps to achieve the goal of the site: to deliver students information.</p>
 
-    <h3>Audience</h3>
+                <h3>News</h3>
 
-    <p>We believe that the audience should be very specific but not general in a neat design. So we make the most of every space of the site to provide particular information <em>only<em> towards students of the ongoing class.</p>
+                <p>A tumblr blog was incorporated as a way for students to stay updated about current comings-and-goings
+                    of the class.</p>
 
-    <h3>Marketing</h3>
+                <h3>Audience</h3>
 
-    <p>The COMP1950 website is primarily an educational tool. With that, we've foregone any attempt to devise plans for marketing.</p>
+                <p>We believe that the audience should be very specific but not general in a neat design. So we make the
+                    most of every space of the site to provide particular information <em>only</em> towards students of
+                        the ongoing class.</p>
 
-    <h3>Compatibility</h3>
+                <h3>Marketing</h3>
 
-    <p>The design of the website uses HTML5 and CSS3. We've ensured that each page and line of code has been validated by the WC3. And the site will render well on mobile phones, tablets, etc, as we did anticipate that these platforms would be used by the audience regularly to access information. The navigation menu was redesigned to the top right on mobile phones for better user experience.</p>
-    </div>
-</article>
-</section>
+                <p>The COMP1950 website is primarily an educational tool. With that, we've foregone any attempt to
+                    devise plans for marketing.</p>
 
-<section id="comments">
-    <h2>Comments:</h2>
-    <article id="comment">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'liubo'; // required: replace example with your forum shortname
+                <h3>Compatibility</h3>
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function () {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
-    </article>
-</section>
-<!--#include file="sitefooter.shtml" -->
-</div><!-- /div#wrap -->
+                <p>The design of the website uses HTML5 and CSS3. We've ensured that each page and line of code has been
+                    validated by the WC3. And the site will render well on mobile phones, tablets, etc, as we did
+                    anticipate that these platforms would be used by the audience regularly to access information. The
+                    navigation menu was redesigned to the top right on mobile phones for better user experience.</p>
+            </div>
+        </article>
+    </section>
+
+    <section id="comments">
+        <h2>Comments:</h2>
+        <article id="comment">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'liubo'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var dsq = document.createElement('script');
+                    dsq.type = 'text/javascript';
+                    dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+                Disqus.</a></noscript>
+        </article>
+    </section>
+    <!--#include file="sitefooter.shtml" -->
+</div>
+<!-- /div#wrap -->
 
 <!-- Highlight code -->
 <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
