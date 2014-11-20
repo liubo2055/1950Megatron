@@ -6,7 +6,7 @@
     <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons content">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link type="text/css" rel="stylesheet" href="./css/styles.css"/>
-    <link type="text/css" rel="stylesheet" href="./expert/experts.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/experts.css"/>
     <!-- UltiTop -- top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
     <link rel="stylesheet" media="screen" href="./js/ui.totop.css">
     <!-- Highlight code -->
@@ -41,28 +41,28 @@
 
             <figure class="member">
                 <a href="http://students.thenet.ca/kcarrasco/">
-                    <img src="expert/kevin.jpg" class="img-thumbnail">
+                    <img src="images/kevin.jpg" class="img-thumbnail">
                     <figcaption class="name">Kevin Carrasco</figcaption>
                 </a>
             </figure>
 
             <figure class="member">
                 <a href="http://students.thenet.ca/bliu/">
-                    <img src="expert/bliu.jpg" class="img-thumbnail">
+                    <img src="images/bliu.jpg" class="img-thumbnail">
                     <figcaption class="name">Bo Liu</figcaption>
                 </a>
             </figure>
 
             <figure class="member">
                 <a href="http://students.thenet.ca/rallan/">
-                    <img src="expert/avatar.png" class="img-thumbnail">
+                    <img src="images/avatar.png" class="img-thumbnail">
                     <figcaption class="name">Ryan Allan</figcaption>
                 </a>
             </figure>
 
             <figure class="member">
                 <a href="http://students.thenet.ca/fdabbaghi/comp1950/week1.html">
-                    <img src="expert/fariba.jpg" class="img-thumbnail">
+                    <img src="images/fariba.jpg" class="img-thumbnail">
                     <figcaption class="name">Fariba Dabbaghi</figcaption>
                 </a>
             </figure>
