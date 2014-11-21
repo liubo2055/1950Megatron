@@ -23,6 +23,7 @@
                     <li><a href="#codeexample">Code Example</a></li>
                     <li><a href="#somemore">Some more</a></li>
                     <li><a href="#lastbit">Last bit</a></li>
+					<li><a href="#resources">Resource</a></li>
                 </ul>
             </nav>
         </section>
@@ -125,6 +126,12 @@
                     Maecenas a augue in orci auctor congue at ut metus.
                     Maecenas varius sem et tincidunt volutpat.
                     Cras sit amet elementum felis. Cras accumsan mollis malesuada
+                </p>
+            </article>
+			 <article id="resource">
+                <h2>resources</h2>
+                <p>
+                    <a href="resource.html">resources </a>
                 </p>
             </article>
         </section>
