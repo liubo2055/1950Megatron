@@ -1,8 +1,9 @@
 
 /* SCREEN */
-@import url("common.css");
-@import url("screen_max_360px.css") only screen and (max-width: 360px);
-@import url("screen_min_361px.css") only screen and (min-width: 361px);
+@import url("common.css") only screen;
+@import url("screen_mobile.css") only screen and (max-width: 480px);
+@import url("screen_tablet.css") only screen and (min-width: 481px) and (max-width: 767px);
+@import url("screen_desktop.css") only screen and (min-width: 768px);
 
 /* PRINT */
 @import url("print.css") print;

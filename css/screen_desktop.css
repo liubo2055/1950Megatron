@@ -157,19 +157,19 @@ nav#pagenav a{
     border-bottom-style: solid;
 }
 
-nav#pagenav a:link,
-nav#pagenav a:visited,
-nav#pagenav a:hover,
-nav#pagenav a:active{
-    text-decoration: none;
-    color: #313131;
-    font-weight: bold;
-}
+ nav#pagenav a:link,
+ nav#pagenav a:visited,
+ nav#pagenav a:hover,
+ nav#pagenav a:active{
+     text-decoration: none;
+     color: #313131;
+     font-weight: bold;
+ }
 
-nav#pagenav a:hover{
-    background-color: #f0f0f0;
+ nav#pagenav a:hover{
+     background-color: #f0f0f0;
 
-}
+ }
 
 
 /* CONTENT */
