@@ -29,7 +29,7 @@ header#siteheader a:visited > span,
 header#siteheader a:hover > span,
 header#siteheader a:active > span{
     color: #790203;
-    font-size: .8em;
+    font-size: .3em;
 }
 
 h2#sitetitle{
@@ -39,13 +39,15 @@ h2#sitetitle{
 /* SITE NAV*/
 
 #slide-checkbox:checked ~ ul#menuitems{
-    position: fixed;
-    left: 0px;
+/*    position: fixed; */
+    margin-top: 55px;
 }
 
 #slide-checkbox:checked + label {
     background-image: url("../images/hamburger-white.png");
     background-color: #23241F;
+    width: 100%;
+    text-align: right;
 }
 
 #slide-checkbox{
@@ -54,14 +56,14 @@ h2#sitetitle{
 }
 
 label#slide-toggle{
-    text-align: center;
+    text-align: right;
     font-weight: bold;
     position: fixed;
     top: 0px;
-    left: 0px;
+    right: 0px;
     z-index: 2;
-    width: 70px;
     height: 55px;
+    width: 40px;
     cursor: pointer;
     background-image: url("../images/hamburger.png");
     background-size: 40px;
@@ -72,12 +74,12 @@ label#slide-toggle{
 ul#menuitems{
     list-style: none;
     background: #23241F;
-    position: fixed;
-    margin: 0;
+/*    position: fixed; */
+    margin-top: -2000px;
     padding: 0;
-    top: 55px;
-    left: -500px;
-    bottom: 0;
+    right: 0;
+    top: -2000px;
+    width: 100%;
     z-index: 0;
     border-style: none;
     border-color: #08232a;
