@@ -131,7 +131,10 @@
 			 <article id="resource">
                 <h2>resources</h2>
                 <p>
-                    <a href="resource.html">resources </a>
+                        <li><a href="http://html5test.com/">HTML5Test</a></li>
+						<li><a href="http://www.abookapart.com/products/html5-for-web-designers">HTML5 for Web Developers</a></li>
+						<li><a href="http://introducinghtml5.com/">Introducing HTML5</a></li>
+					     <li><a href="http://diveintohtml5.info/">Dive into HTML5 </a></li>
                 </p>
             </article>
         </section>
