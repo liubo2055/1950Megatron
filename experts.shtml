@@ -39,33 +39,37 @@
                 </p>
             </div>
 
-            <figure class="member">
-                <a href="http://students.thenet.ca/kcarrasco/">
-                    <img src="images/kevin.jpg" class="img-thumbnail">
-                    <figcaption class="name">Kevin Carrasco</figcaption>
-                </a>
-            </figure>
+            <div class="pair">
+                <figure class="member">
+                    <a href="http://students.thenet.ca/kcarrasco/">
+                        <img src="images/kevin.jpg" class="img-thumbnail">
+                        <figcaption class="name">Kevin Carrasco</figcaption>
+                    </a>
+                </figure>
 
-            <figure class="member">
-                <a href="http://students.thenet.ca/bliu/">
-                    <img src="images/bliu.jpg" class="img-thumbnail">
-                    <figcaption class="name">Bo Liu</figcaption>
-                </a>
-            </figure>
+                <figure class="member">
+                    <a href="http://students.thenet.ca/bliu/">
+                        <img src="images/bliu.jpg" class="img-thumbnail">
+                        <figcaption class="name">Bo Liu</figcaption>
+                    </a>
+                </figure>
+            </div>
 
-            <figure class="member">
-                <a href="http://students.thenet.ca/rallan/">
-                    <img src="images/avatar.png" class="img-thumbnail">
-                    <figcaption class="name">Ryan Allan</figcaption>
-                </a>
-            </figure>
+            <div class="pair">
+                <figure class="member">
+                    <a href="http://students.thenet.ca/rallan/">
+                        <img src="images/avatar.png" class="img-thumbnail">
+                        <figcaption class="name">Ryan Allan</figcaption>
+                    </a>
+                </figure>
 
-            <figure class="member">
-                <a href="http://students.thenet.ca/fdabbaghi/comp1950/week1.html">
-                    <img src="images/fariba.jpg" class="img-thumbnail">
-                    <figcaption class="name">Fariba Dabbaghi</figcaption>
-                </a>
-            </figure>
+                <figure class="member">
+                    <a href="http://students.thenet.ca/fdabbaghi/comp1950/week1.html">
+                        <img src="images/fariba.jpg" class="img-thumbnail">
+                        <figcaption class="name">Fariba Dabbaghi</figcaption>
+                    </a>
+                </figure>
+            </div>
 
         </article>
 
@@ -126,6 +130,7 @@
                             <ul>
                                 <li>Skeleton of the site</li>
                                 <li>Jquery back to top button</li>
+                                <li>Lecture page content</li>
                             </ul>
                         </p>
 

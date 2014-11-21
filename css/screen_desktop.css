@@ -6,7 +6,7 @@ header#siteheader{
     height: 55px;
     display: inline-block;
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: rgba(255, 255, 255, 0.74);
     text-align: center;
     border-style: none;
     border-color: #23241F;
