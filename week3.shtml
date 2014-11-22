@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons content">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <!-- UltiTop -- top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
+    <link rel="stylesheet" media="screen" href="js/ui.totop.css">
+    <!-- Highlight code -->
+    <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+    <title>  COMP 1950 Web Development and Design 2</title>
+</head>
+<body>
+    <!--#include file="siteheader.shtml" -->
+    <div id="wrap">
+        <section id="sidebar">
+            <h3>Agenda:</h3>
+            <nav id="pagenav">
+                <ul>
+                    <li><a href="#reminders">Reminders</a></li>
+                    <li><a href="#review-homework">Review of homework</a></li>
+                    <li><a href="#seo-basics">SEO Basics</a></li>
+                    <li><a href="#css-review">CSS Review</a></li>
+                    <li><a href="#homework">Week 3 Homework</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="main">
+            <article id="reminders">
+
+                <h2>Reminders</h2>
+
+                <h3 id="validate-code">Validate code</h3>
+
+                <ul>
+                  <li>Validate your code! Web Dev Tool is useful for a quick scan, but always validate your code!</li>
+                  <li>Use a <a href="http://validator.w3.org/check?uri=referer">referer link</a>.  </li>
+                  <li>The URL contains a <em>query string</em> which instructs the server to look at the <em>referer</em> for the validation</li>
+                  <li>This link can now be used anywhere. No page customization needed.</li>
+                </ul>
+
+                <h3 id="html5">HTML5</h3>
+
+                <ul>
+                  <li>Tags used in HTML are exactly the same as in previous versions</li>
+                  <li>Can be used with CSS</li>
+                  <li>Used instead of classes or IDs</li>
+                  <li>When to use what tag? Let’s check out a <a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf">flowchart of HTML5 tags</a></li>
+                </ul>
+
+                <h3 id="resources-for-html5">Resources for HTML5</h3>
+
+                <ul>
+                  <li>How much of HTML5 does your browser support? Desktop vs Tablet vs Smartphone? Try the <a href="http://html5test.com">HTML5Test</a>.</li>
+                  <li><strong>Book:</strong> <a href="http://books.alistapart.com/products/html5-for-web-designers">HTML5 for Web Developers</a> by Jeremy Keith</li>
+                  <li><strong>Book:</strong> <a href="http://introducinghtml5.com/">Introducing HTML5</a> by Bruce Lawson and Remy Sharp</li>
+                  <li><strong>Online:</strong> <a href="http://diveintohtml5.info/">Dive into HTML5</a> by Mark Pilgrim</li>
+                </ul>
+                <br /><hr />
+            </article>
+            <article id="review-homework">
+                <h2>Review homework</h2>
+
+                <p>Let’s take a look at an example page and how you would build that. </p>
+
+                <ul>
+                  <li>Start with a typical method for web development: sketch.</li>
+                  <li>We will add in our HTML5 tags to see where they can be used.</li>
+                </ul>
+                <br /><hr />
+            </article>
+            <article id="seo-basics">
+                <h2>SEO Basics</h2>
+
+                <h3 id="search-engine-optimization">Search Engine Optimization</h3>
+
+                <p>SEO ties into both semantics and standard very closely</p>
+
+                <p>Long gone are the days of SEO shady practices like stuffing pages or cloaking in order to achieve positive results. </p>
+
+                <p>Today, most search engine algorithms are so well developed, that the best policy: <strong>well marked up content!</strong></p>
+
+                <h3 id="great-documents-on-seo">Great documents on SEO</h3>
+
+                <p>Google’s own <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf">Search Engine Optimization guide</a></p>
+
+                <p>Search Engine Land has produced the <a href="http://searchengineland.com/download/seotable/SearchEngineLand-Periodic-Table-of-SEO.pdf">Periodic Table of Search Engine Optimization</a></p>
+
+                <h3 id="best-practices">Best Practices</h3>
+
+                <p>Here are some of the best practices for proper markup and site design for optimal SEO:</p>
+
+                <h3 id="page-titles">Page Titles</h4>
+                <ul>
+                  <li>Super important - yet few people spend enough time on them</li>
+                  <li>Encapsulate each page on your site very briefly &amp; include company info</li>
+                  <li>Titles are used in results, so be sure they are descriptive and brief</li>
+                  <li>Meta Description is used, Meta Keywords are not</li>
+                  <li>Descriptions are the content users see in many search engines. Be accurate and descriptive, but be sure to summarize the content on the page</li>
+                </ul>
+
+                <h3 id="url-structure">URL Structure</h4>
+
+                <ul>
+                  <li>Like previous items, having descriptive URLs is a matter of proper site design</li>
+                  <li>When URLs make sense, users (and many engines) find it easier to determine the content and the hierarchy</li>
+                  <li>Use actual words in URLs when you can. /url?ejamcirkanfmnadcmgnskd is not very descriptive. /products/vacations/specials is better</li>
+                  <li>Site structure plays a big part here</li>
+                </ul>
+
+                <h3 id="content">Content</h4>
+
+                <p>Content within your site is one of the biggest elements that you get ranked on. Be sure it is accurate and reflects the other elements like Meta Description, Title and any headings.</p>
+
+                <ul>
+                  <li>Content should be easy to read and on-topic as much as possible</li>
+                  <li>Having updated, or “fresh” content can improve your site: blog/news/updated info</li>
+                  <li>Contextual linking is very important! Descriptive, concise and easy to understand</li>
+                  <li>Heading tags, as with other logical tags, should be used to accurately describe content</li>
+                  <li>Don’t use all headings! Opposite effect can happen</li>
+                </ul>
+                <br /><hr />
+            </article>
+            <article id="css-review">
+                <h2>CSS Review</h2>
+
+                <p>I am not going the the beginning of CSS - you will all know that by now.  Let’s look at ensuring you understand the building blocks for CSS Layouts and responsive, which we will cover next week.</p>
+
+                <h3 id="referencing-css">Referencing CSS</h3>
+
+                <p>Aside from inline CSS (generally a bad idea) and embedded (better, but not scalable), there is external CSS.  Consider this to be the primary way you will reference your CSS from now on.</p>
+
+                <h3 id="considerations">Considerations</h4>
+
+                <p>When linking to external style sheets, a few things to keep in mind:</p>
+
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;/css/stylesheet.css&quot;</span> <span class="na">title=</span><span class="s">&quot;Main style&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span> <span class="nt">/&gt;</span></code></pre></div>
+
+                <ul>
+                  <li>Within HTML5, you no longer need  <code class="inline">rel="stylesheet"</code></li>
+                  <li>Each stylesheet should have a <code class="inline">title</code> attribute inside of it</li>
+                  <li>The title tag allows the user to select different styles if required</li>
+                  <li>This is the genesis of how Responsive Web Design works: switching/combining stylesheets</li>
+                  <li>Multiple stylesheets can be loaded (main.css, fonts.css, layout.css, etc)</li>
+                  <li>Each stylesheet requires it’s own link tag, or use @import to load other sheets</li>
+                </ul>
+
+                <h3 id="media-variations">Media variations</h4>
+
+                <ul>
+                  <li>media=”type” is the essence of Responsive via a query in the media type (more next week)</li>
+                  <li>Examples of supported types: all, aural, braille, embossed, handheld, print, projection, screen, tty, tv</li>
+                  <li>Most are not commonly supported, but ones that you will see often: all, screen, print</li>
+                  <li>Almost all browsers use the ‘print’ sheet to render text and elements for when the user selects a page to print</li>
+                  <li>This can be extremely valuable for when you have a lot of page information that you might not want to have show up on a printout (ie: navigation)</li>
+                </ul>
+
+                <h3 id="alternate-sheets">Alternate sheets</h4>
+
+                <ul>
+                  <li>To specify an alternate stylesheet, use: <code class="inline">rel="alternate stylesheet"</code> within the link element:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;alternate stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;styles.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span> <span class="na">title=</span><span class="s">&quot;Main Styles&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+                <p><em>Tip: If you have multiple sheets that belong to one “look” make sure they all have the same title name</em></p>
+
+                <ul>
+                  <li>An example would be to create a ‘Larger Text’ style sheet with everything in a larger font, or an alternate sheet for a special event</li>
+                  <li>Made famous by <a href="http://www.csszengarden.com">CSS Zen Garden</a></li>
+                </ul>
+
+                <h3 id="using-import-and-media">Using @import and @media</h4>
+
+                <ul>
+                  <li>In your code and stylesheets, you can call other stylesheets with @import</li>
+                  <li>A great place to be able to manage your CSS, by using @import to create a “CSS Loader” page</li>
+                </ul>
+
+                <h3 id="example">Example:</h4>
+
+                <p>To use a CSS Loader, from your main document: </p>
+
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;styles.css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span> <span class="na">title=</span><span class="s">&quot;Main Styles&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+                <p>Now, in the body of the styles.css file, import as many files as you need:</p>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="k">@import</span> <span class="nt">url</span><span class="o">(</span><span class="nt">type</span><span class="nc">.css</span><span class="o">)</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="nt">url</span><span class="o">(</span><span class="nt">nav</span><span class="nc">.css</span><span class="o">)</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="nt">url</span><span class="o">(</span><span class="nt">template</span><span class="nc">.css</span><span class="o">)</span><span class="p">;</span>
+                <span class="p">{</span><span class="n">Any</span> <span class="n">other</span> <span class="n">CSS</span> <span class="n">Styles</span><span class="p">}</span></code></pre></div>
+
+                <h3 id="responsive-web-media">Responsive web: @media</h3>
+
+                <p>We will do more with responsive web design next week, but for now, know that @media is the key to how it works</p>
+
+                <p>It can be done using the <link /> tag and the media=”” attribute or within a stylesheet using @media</p>
+
+                <h2 id="css-selectors">CSS Selectors</h2>
+
+                <p>Other than basic Element, Class, and ID selectors, there are many more that allow you to really present your content. Knowing how they work is critical to creating modern layouts and presentation.</p>
+
+                <h3 id="successful-css-general-to-specific">Successful CSS: General to Specific</h3>
+
+                <p>With CSS, it’s always best to create your generic/basic rules first, with your more specific selectors coming later. This is primarily because of “specificity”:</p>
+
+                <h3 id="specificity">Specificity</h4>
+
+                <p>This is the ranking system used within CSS to ensure there are never any rules that collide and the browser is unsure what to do.  </p>
+
+                <p>Here is how the W3C defines the process by which style order is determined:</p>
+
+                <ul>
+                  <li><strong>Discover all declarations:</strong> Find all declarations that apply to the element and property in question, for the target media type. Declarations apply if the associated selector matches the element in question.</li>
+                  <li><strong>Sheet Order:</strong> The primary sort of the declarations is by weight and origin: for normal declarations, author style sheets override user style sheets which override the default style sheet.
+                Note: For “!important” declarations, user style sheets override author style sheets which override the default style sheet. “!important” declaration override normal declarations. Also, imported stylesheets have the same origin as the style sheet that imported it.</li>
+                  <li><strong>Specificity:</strong> The secondary sort is by specificity of selector: more specific selectors will override more general ones. Pseudo-elements and pseudo-classes are counted as normal elements and classes, respectively.</li>
+                  <li><strong>Sort by Order:</strong> Finally, sort by order specified: if two rules have the same weight, origin and specificity, the latter specified wins. Rules in imported style sheets are considered to be before any rules in the style sheet itself.</li>
+                </ul>
+
+                <p>All of the rules are pretty straightforward, except for Specificity, which bears some explanation:</p>
+
+                <p>Specificity is a method for determining what rules are applied when a conflict between two selectors occurs. Through a method of <em>concatenating</em> values when certain elements and selectors are present, a specificity number can be applied to any CSS rule. The one with highest specificity wins and the associated rule is applied to the element(s) in question.</p>
+
+                <h3 id="mnemonic-to-remember-ice">Mnemonic to remember: ICE</h3>
+
+                <ul>
+                  <li>Count the number of <strong>IDs</strong> in the selector.</li>
+                  <li>Count the number of <strong>Classes</strong> in the selector.</li>
+                  <li>Count the number of <strong>Elements</strong> in the selector.</li>
+                </ul>
+
+                <p>Now, write the three numbers in the above order with no spaces or commas to obtain a three digit number. The final  number is a concatenation of the three and results in a specificity number used to “rank” selectors. Higher numbers win out over lower numbers. </p>
+
+                <p>Following is a list of selectors sorted by specificity:</p>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#id1</span>
+                <span class="c">/* I=1 C=0 E=0 --&gt; 100 */</span>
+
+                <span class="nt">ul</span> <span class="nt">ul</span> <span class="nt">li</span><span class="nc">.red</span>
+                <span class="c">/* I=0 C=1 E=3 --&gt; 013 */</span>
+
+                <span class="nt">li</span><span class="nc">.red</span>
+                <span class="c">/* I=0 C=1 E=1 --&gt; 011 */</span>
+
+                <span class="nt">li</span>
+                <span class="c">/* I=0 C=0 E=1 --&gt; 001 */</span></code></pre></div>
+
+                <h3 id="important-rule">!Important rule</h4>
+
+                <p>This declaration, when added to a rule, will override almost all other declarations.</p>
+
+                <p>It indicates that this rule should take over any previous rules that might govern a specific element.
+                This rule can cause havoc if overused, as it will overrule any other declaration with the same selector. <strong>Be careful with !important</strong></p>
+
+                <h2 id="more-css">More CSS</h2>
+
+                <h3 id="grouping-selectors">Grouping selectors</h3>
+
+                <ul>
+                  <li>To apply the same style to a multitude of different selectors, you can group them with the comma:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>This can be done with Elements, classes and IDs</li>
+                  <li>Build specific rules for any individual items</li>
+                  <li>Grouping can also be used in html class attributes</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;cool wicked&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+                <ul>
+                  <li>Will set this paragraph to have both the cool and wicked classes</li>
+                  <li>Order is irrelevant</li>
+                  <li>Case is important! Remember to use a single rule for CSS naming and stick with it</li>
+                </ul>
+
+                <h2 id="selectors">Selectors</h2>
+
+                <p>Let’s look at some different selectors:</p>
+
+                <h3 id="pseudo-classes">Pseudo-classes</h3>
+
+                <p>A Pseudo-class is a selector that allows you to reference a specific action or attribute of an element. This is most often used when specifying a attributes, such as :visited and :link.</p>
+
+                <p>There are other uses for pseudo elements, that will allow for greater detail in styling content, such as :first-letter and :first-line. These allow the browser to apply a style based on an unselected, but displayed element.</p>
+
+                <p>Best part: No span or div required to access these pseudo-elements.</p>
+
+                <p>Most commonly used in links, but order is important:</p>
+
+                <ul>
+                  <li>Link</li>
+                  <li>Visited</li>
+                  <li>Hover</li>
+                  <li>Active</li>
+                </ul>
+
+                <p>Can you tell me why?</p>
+
+                <p>Easy mnemonic: <strong>LVHA</strong> - <strong>L</strong>o<strong>V</strong>e - <strong>HA</strong>te</p>
+
+                <h3 id="universal-selector">Universal Selector</h3>
+
+                <ul>
+                  <li>This is a fairly widely supported selector: the asterisk *</li>
+                  <li>Use it to specify a global rule</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">*</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>This will make all font color red on your page</li>
+                  <li>The universal selector can be very powerful, as it can command a lot of changes to your styles, but it can be  expensive from a processing point of view</li>
+                </ul>
+
+                <h3 id="descendant-selectors">Descendant Selectors</h3>
+
+                <ul>
+                  <li>Separated by a space, the last element being the key one</li>
+                  <li>In this rule:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="nt">em</span> <span class="p">{</span><span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;}</span></code></pre></div>
+
+                <ul>
+                  <li>The <code class="inline">em</code> is the only tag that will acquire the effect</li>
+                  <li>Rules are read <em>right-to-left</em> </li>
+                  <li>Match all the right-most elements then all the ones to the left</li>
+                  <li>In a large DOM, this can take a while</li>
+                  <li>Can have multiple descendants </li>
+                  <li>Great for specifying different styles when they apply only in certain areas:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">nav</span> <span class="nt">a</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">silver</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>The links will only appear silver within <code class="inline">nav</code> tags</li>
+                </ul>
+
+                <h3 id="child-selectors">Child Selectors</h3>
+
+                <ul>
+                  <li>Uses the &gt; combinator to specify children</li>
+                  <li>Will select an element that is directly descended from another element</li>
+                  <li>The following rule: </li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="o">&gt;</span> <span class="nt">strong</span> <span class="p">{</span><span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>Only <code class="inline">strong</code> tags that are the child tag from the <code class="inline">p</code> will match</li>
+                  <li>Will not select a strong tag embedded in any other tag </li>
+                </ul>
+
+                <h3 id="attribute-selectors">Attribute Selectors</h3>
+
+                <ul>
+                  <li>Select elements by what the element contains as attributes</li>
+                  <li>The method is: </li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">element</span><span class="o">[</span><span class="nt">attribute</span><span class="o">=</span><span class="nt">value</span><span class="o">]</span> <span class="p">{</span> <span class="o">...</span> <span class="n">CSS</span> <span class="n">Rules</span> <span class="o">...</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>If you specify an attribute with no value, you will match any element that simply has the attribute present (no matter what it’s value is).  Example:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">img</span><span class="o">[</span><span class="nt">alt</span><span class="o">]</span> <span class="p">{</span><span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="nb">red</span><span class="p">;}</span></code></pre></div>
+
+                <ul>
+                  <li>This will draw a 1px red border around any img with an alt attribute (regardless of what is in the attribute itself)</li>
+                  <li>You can use an attribute selector to find specific content:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="o">[</span><span class="nt">role</span><span class="o">=</span><span class="s2">&quot;banner&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="k">background</span><span class="o">:</span> <span class="nb">red</span><span class="p">;}</span></code></pre></div>
+
+                <ul>
+                  <li>You can further direct an attribute selector to match on partial attributes</li>
+                  <li>
+                    <ul>
+                      <li><code class="inline">^=</code> The carat will find content at the beginning</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><code class="inline">*=</code> The asterisk will find content at the beginning</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><code class="inline">$=</code> The dollar will find content at the beginning</li>
+                    </ul>
+                  </li>
+                  <li>An example: </li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">a</span><span class="o">[</span><span class="nt">href</span><span class="o">$=</span><span class="s2">&quot;.shtml&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">olive</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>This will find any anchors that contain an href attribute whose content ends in <code class="inline">.shtml</code></li>
+                  <li>Another example:</li>
+                </ul>
+
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span><span class="o">[</span><span class="nt">class</span><span class="o">^=</span><span class="s2">&quot;box-&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+                <ul>
+                  <li>This will draw a 1px solid red box around all <code class="inline">div</code> tags with a class that <em>starts</em> with <code class="inline">box-</code></li>
+                </ul>
+
+                <h3 id="size-measurements">Size measurements</h3>
+
+                <ul>
+                  <li>px - Pixels is one of the most common measuring types. It is specific to computers, as it renders based on the pixel-display of all monitors. Great for specific measurements on boxes and borders, but for fonts, it can lead to difficulty as some browsers don’t allow scaling and font can end up too small</li>
+                  <li>pt - Points is an aold system related to type-setting that had a standard size for points. This is a relative size based on the users’ system</li>
+                  <li>em - A relative measurement of the letter “m” in the chosen font. This is a popular one for spacing around text, as it inherits the font dimensions</li>
+                  <li>rem - A new measurement system called “root em” that is becoming popular. No longer an issue of compounding errors, the root em will always us the html element for measurement</li>
+                  <li>% - Percentage measurements are also very common, but can be problematic when inheritance happens when multiple elements are nested in one another</li>
+                  <li>named - This refers to fonts and a few other elements. The named sizes are xx-small, x-small, small, medium, large, x-large, xx-large. They are relative to the browsers base font size</li>
+                  <li>Other less used ones: ex, pc</li>
+                </ul>
+
+                <h3 id="color-measurement">Color Measurement</h3>
+
+                <p>Colors can be specified in a number of ways, corresponding to the system that your organization or visual element requires.</p>
+
+                <p>Almost all color systems use a method for expressing a combination of the three color spaces used for displaying colors on computer monitors: Red Green and Blue.</p>
+
+                <ul>
+                  <li>Hex: #003366 - One of the most common systems, it combines 2 digits each for Red Green and Blue. Each hex pair stand stands for digits between 00 and FF in hexadecimal</li>
+                  <li>Compact Hex: #f30 - This is almost identical to the Hex version, except that when three numbers are used, most browsers will just double-up each digit. So, #f30 will become #ff3300</li>
+                  <li>Named: cornflowerblue - Although the official W3C specification only lists 16 named colors, almost every browser supports the various named colors</li>
+                  <li>RGB: rgb(255, 0, 255) - This allows the user to specify the same thing as Hex, but in Decimal format</li>
+                  <li>RGBa: rgba(128, 128, 128, 0.5) - Takes an additional argument for <em>alpha</em> or opacity</li>
+                  <li>RGB %: rgb(100%, 0%, 50%) - Almost identical to RGB, but with percentages of each color space instead</li>
+                </ul>
+
+                <h2 id="css-resources">CSS Resources</h2>
+
+                <ul>
+                  <li>Mozilla Development Network <a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">CSS Reference</a></li>
+                  <li>An excellent book on CSS: <a href="http://www.amazon.ca/gp/product/0321643380?ie=UTF8&amp;tag=css-tricks-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321643380">Handcrafted CSS</a></li>
+                  <li>Another excellent book: <a href="http://www.amazon.ca/gp/product/1430223979/ref=as_li_ss_tl?ie=UTF8&amp;tag=css-tricks-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1430223979">CSS Mastery</a></li>
+                </ul>
+
+                <h3 id="css-reset">CSS Reset</h3>
+                <p>Is all CSS deployed the same on every browser?  No.</p>
+
+                <p>One of the best ways to get all browsers to react similarly is to use something like a <strong>CSS Reset</strong> </p>
+
+                <ul>
+                  <li>CSS stylesheet that instructs browser to set all elements to predictable values</li>
+                  <li>This is one of the best ways to get closer to cross-browser compatibility!</li>
+                  <li>Content is now predictable in most every browser</li>
+                  <li>Minimizes odd behaviour in rendering</li>
+                  <li>Easy to create custom rules for CMS-controlled sites</li>
+                  <li>There are some excellent resets out there, a few of the better ones:</li>
+                </ul>
+
+                <h3 id="get-reset">Get reset</h3>
+
+                <ul>
+                  <li>Eric Meyer’s <a href="http://meyerweb.com/eric/tools/css/reset/">Reset CSS</a> was the original, now in it’s second version</li>
+                  <li>HTML5 Doctor’s <a href="http://html5doctor.com/html-5-reset-stylesheet/">Reset Stylesheet</a> is geared toward HTML5 with some slight differences from Meyer’s</li>
+                  <li>An innovative approach is <a href="http://necolas.github.io/normalize.css/">normalize.css</a></li>
+                  <li>
+                    <ul>
+                      <li>Doesn’t just reset, but takes advantage of some of the built-in features of various tags</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>Actually corrects bugs rather than just resetting everything</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>Used by HTML5 Boilerplate</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <h3 id="using-css-resets">Using CSS Resets</h3>
+
+                <ul>
+                  <li>Works just like any other CSS you link to</li>
+                  <li>Can work embedded as well</li>
+                  <li><strong>Note:</strong> use before any other stylesheets!</li>
+                </ul>
+            </article>
+            <article id="homework">
+                <h2 class="page-title">Week Three Homework</h2>
+                  <h3 id="realtor-page-enhancements">Realtor Page Enhancements</h3>
+
+                    <p>Next week we will use what you will do for homework this week to build a responsive site using media queries.</p>
+
+                    <p>To prepare yourself, please add more detail into your Realtor page so that you have content to work with.</p>
+
+                    <p>Create a <em>single</em> page for your Realtor that includes:</p>
+
+                    <ul>
+                      <li>Realtor name, company, contact information</li>
+                      <li>Realtor bio (a few sentences on the Realtor)</li>
+                      <li>At least 3 houses for sale with details like Address, List price, Bedrooms, Bathrooms, Square footage, Year built</li>
+                      <li>Content in the Header and Footer</li>
+                      <li>A navigation that points to at least 4 other pages. Anything you like, but check other Realtor pages for examples if you don’t have any</li>
+                      <li>Links can just self reference- ie: they don’t need to go anywhere:</li>
+                    </ul>
+
+                    <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span> ... <span class="nt">&lt;/a&gt;</span></code></pre></div>
+
+                    <h3 id="alternate-stylesheet-for-realtor">Alternate stylesheet for Realtor</h3>
+
+                    <p>Create a second stylesheet for your Realtor page that changes how things are laid out, colours, fonts, anything that makes it obvious the styles are different.</p>
+
+                    <ul>
+                      <li>Keep all of the elements, just change the CSS</li>
+                      <li>Remember to give the two stylesheets names so that you can differentiate them</li>
+                      <li>Use Firefox to View &gt; Page Style</li>
+                      <li>You might need to change around some of your HTML in order to make everything work properly. This is normal.</li>
+                    </ul>
+
+                    <h3 id="print-stylesheet-for-realtor">Print Stylesheet for Realtor</h3>
+
+                    <p>Using the following notes for Creating a Print Stylesheet, create a print stylesheet for your Realtor page.</p>
+
+                    <ul>
+                      <li>Think about what information would be present on your web version that might not be on your print version.</li>
+                      <li>Use the <code class="inline">media="print"</code> attribute &amp; value to ensure the stylesheet can be seen by <strong>Print &gt; Preview</strong></li>
+                      <li>Do not use a <code class="inline">title=""</code> attribute on the print stylesheet</li>
+                    </ul>
+
+                    <h2 id="creating-a-print-stylesheet">Creating a Print Stylesheet</h2>
+
+                    <p>The key to a stylesheet specifically for printing is a matter of planning more than anything.</p>
+
+                    <h3 id="before-you-begin">Before you begin</h3>
+
+                    <p>You’ll need a few things prepared before you can begin:</p>
+
+                    <ul>
+                      <li>A layout that is separated by divs in order to select specific areas for printing or not</li>
+                      <li>Semantic markup that supports page headlines</li>
+                      <li>Knowing what areas you want printed and what you don’t</li>
+                      <li>Organize content so that printable areas are not nested in non-printable ones</li>
+                      <li>A recognition of why users will print pages - different styles based on different uses</li>
+                    </ul>
+
+                    <h3 id="how-to-start">How to start</h3>
+
+                    <p>Make sure you have separate elements for:</p>
+
+                    <ul>
+                      <li>each content section you want printed</li>
+                      <li>page elements that represent titles or headers</li>
+                      <li>other printable elements (footers)</li>
+                      <li>non-printing elements (navigation/sidebars/header images/backgrounds)</li>
+                    </ul>
+
+                    <h3 id="next-steps">Next Steps</h3>
+
+                    <p>Once you have planned your layout and created distinct elements, the next steps are to:</p>
+
+                    <ul>
+                      <li>Hide the elements you don’t want the printer to see</li>
+                      <li>Re-style the layout</li>
+                      <li>Re-style the visuals</li>
+                      <li>Add hyperlink data to Anchor elements</li>
+                    </ul>
+
+                    <h3 id="hiding-elements">Hiding Elements</h3>
+
+                    <p>Hide the elements you don’t want printed.  As an example, let’s say I didn’t want the navigation, footers, or the #sidebar printed out:</p>
+
+                    <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">nav</span><span class="o">,</span> <span class="nt">footer</span><span class="o">,</span> <span class="nf">#sidebar</span>  <span class="p">{</span>
+    <span class="k">display</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+                    <p>This will tell the printer to ignore any of the elements listed in the declaration. Be careful to make sure that none of the elements that are ignored have valuable info in them.</p>
+
+                    <p>You may need to re-code your page so that it will work with your print stylesheet and alternate stylesheets.  This is normal web development.</p>
+
+                    <h3 id="re-styling-layout">Re-styling Layout</h3>
+
+                    <p>You now have a number of elements remaining that will either have no style at all, or will inherit the styles of any sheets with “ALL” as the media. For this reason, it is important to create out own reset and explicitly style the remaining elements:</p>
+
+                    <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="o">,</span> <span class="nf">#content</span><span class="o">,</span> <span class="nf">#main</span><span class="o">,</span> <span class="nt">header</span><span class="o">,</span> <span class="nt">article</span><span class="o">,</span> <span class="nt">section</span>  <span class="p">{</span>
+    <span class="k">float</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">background</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+                    <ul>
+                      <li>The float property is very important, as it can lead to major printing problems if you have any divs that have been floated</li>
+                      <li>The rest of the declarations will remove any width or padding restrictions, allowing the printer to set the margins for each page</li>
+                      <li>If you are using this sheet with another stylesheet that has ALL listed as the value for media, you might want to add !important after each rule, to be sure that there will be no inheritance problems</li>
+                      <li>Having a rule like <code class="inline">background: none;</code> is good if you use backgrounds, or if you don’t. If you do, they’re gone, if you don’t - consider it future-proofing.</li>
+                    </ul>
+
+                    <h3 id="re-styling-visuals">Re-styling Visuals</h3>
+
+                    <p>This part is the most subjective. You may want to have users continue to see the fonts and headings the way you displayed them on the screen, or you may want them to be of a more readable style.</p>
+
+                    <p>Also, pay attention to colors here. If you have a light-colored font on a dark-colored background on the screen, or if your anchors are lighter than normal, be sure to set them to a color that is easily seen after printing.</p>
+
+                    <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="o">,</span> <span class="nf">#content</span><span class="o">,</span> <span class="o">,</span> <span class="nf">#main</span><span class="o">,</span> <span class="nt">article</span><span class="o">,</span> <span class="nt">section</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">black</span><span class="p">;</span>
+    <span class="k">font</span><span class="o">:</span> <span class="m">12pt</span><span class="o">/</span><span class="m">15pt</span> <span class="n">Georgia</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="n">Serif</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span><span class="o">,</span> <span class="nt">header</span> <span class="p">{</span>
+    <span class="k">font-family</span><span class="o">:</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Verdana</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Sans</span><span class="o">-</span><span class="k">serif</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+                    <p>With the proliferation of color printers, you might want to choose a color that will show links in B&amp;W as well as color printing (I selected #309 - a compacted hex code for a medium-dark blue):</p>
+
+                    <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">a</span><span class="nd">:link</span><span class="o">,</span> <span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="m">#309</span><span class="p">;</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+    <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+                    <h3 id="hyperlinks-in-print">Hyperlinks in Print</h3>
+
+                    <p>One of the most useful things you can do in print format is to provide links for the user to see. Without this little trick, they will only see a tags as they are displayed onscreen - likely a different colour and underlined.</p>
+
+                    <p>In order for this to work, you will need two declarations, one for relative links and one for fully qualified ones.</p>
+
+                    <p>Fully qualified (entire URL) links will be styled like this:</p>
+
+                    <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#content</span> <span class="nt">a</span><span class="nd">:link:after</span><span class="o">,</span> <span class="nf">#content</span> <span class="nt">a</span><span class="nd">:visited:after</span><span class="o">,</span> <span class="nf">#main</span> <span class="nt">a</span><span class="nd">:link:after</span><span class="o">,</span>  <span class="nf">#main</span> <span class="nt">a</span><span class="nd">:visited:after</span> <span class="p">{</span>
+    <span class="k">content</span><span class="o">:</span> <span class="s2">&quot; (URL: &quot;</span> <span class="n">attr</span><span class="p">(</span><span class="n">href</span><span class="p">)</span> <span class="s2">&quot;) &quot;</span><span class="p">;</span>
+    <span class="k">font-size</span><span class="o">:</span> <span class="m">90%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+                    <p>This will append a URL to the end of a link on a page, surrounded in brackets with the acronym URL:. The declaration starts with the content property and the value combined with the attr(href) value to the right of the colon.</p>
+
+                    <p>The following deals with relative links that start from the root, such as: </p>
+
+                    <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/products/index.html&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+                    <p>This will look for anything that starts with a known character, specifically a slash ( / ) and then prepend the site name:</p>
+
+                    <div class="highlight">
+<pre>
+<code class="language-css" data-lang="css"><span class="nf">#content</span> <span class="nt">a</span><span class="o">[</span><span class="nt">href</span><span class="o">^=</span><span class="s2">&quot;/&quot;</span><span class="o">]</span><span class="nd">:after</span><span class="o">,</span> <span class="nf">#main</span> <span class="nt">a</span><span class="o">[</span><span class="nt">href</span><span class="o">^=</span><span class="s2">&quot;/&quot;</span><span class="o">]</span><span class="nd">:after</span> <span class="p">{</span>
+    <span class="k">content</span><span class="o">:</span> <span class="s2">&quot; (http://www.thenet.ca&quot;</span> <span class="n">attr</span><span class="p">(</span><span class="n">href</span><span class="p">)</span> <span class="s2">&quot;) &quot;</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+                    </article>
+                </section>
+            </div>
+
+            
+            
+
+
+
+        <section id="comments">
+            <h2>Comments:</h2>
+            <article id="comment">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'liubo'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+        </section>
+    <!--#include file="sitefooter.shtml" -->
+</div><!-- /div#wrap -->
+
+    <!-- Highlight code -->
+    <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+    <script >hljs.initHighlightingOnLoad();</script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Google Code Prettify -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+    <!-- UltiTop -- top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
+    <script src="js/easing.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.totop.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+</body>
+</html>
