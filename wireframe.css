@@ -2,7 +2,7 @@
 h3{text-align:center;}
 h4{text-align:right;}
 h5{text-align:left;font-size:15px;}
-body{background-color:#EAEAEA}
+body{background-color:#EAEAEA;margin-left:300px}
 
 body >table{
           border:2px solid black ;
@@ -12,4 +12,4 @@ body >table{
 		  
  table td{
          border:2px solid black ;
-        }
+	
