@@ -19,11 +19,28 @@
             <nav id="pagenav">
                 <ul>
                     <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#recommendation">HTML5</a></li>
                 </ul>
             </nav>
         </section>
 
         <section id="main">
+            <article id="recommendation">
+                <h1 class="post-title">HTML5 is now a recommendation</h1>
+
+                <p>You might not realize this, but HTML5 has been a RFC (or “Request for Comment”) for the last 5 years, which means that it wasn’t an official specification.  The recent move to Recommendation status means that HTML5 is now an <em>official</em> specification.</p>
+
+                <h2 id="what-does-this-mean">What does this mean?</h2>
+
+                <p>Basically it means that you can now use it in any application and expect that the rules set out in the spec can (and should be) followed by developers and manufacturers.</p>
+
+                <h2 id="further-reading">Further reading</h2>
+
+                <p>You can read more about the <a href="#">move to recommendation status</a> or the <a href="#">announcement from the W3C</a>.</p>      
+            </article>
+            
+            
+            
             <article id="welcome">
                 <h1 class="post-title">Welcome to COMP 1950!</h1>
 
