@@ -5,7 +5,7 @@
     <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons content">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
-    <!-- UltiTop -- top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
+    <!-- UltiTop - top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
     <link rel="stylesheet" media="screen" href="js/ui.totop.css">
     <!-- Highlight code -->
     <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
@@ -23,6 +23,7 @@
                     <li><a href="#seo-basics">SEO Basics</a></li>
                     <li><a href="#css-review">CSS Review</a></li>
                     <li><a href="#homework">Week 3 Homework</a></li>
+                    <li><a href="#comments">Comments</a></li>
                 </ul>
             </nav>
         </section>
@@ -92,7 +93,7 @@
 
                 <p>Here are some of the best practices for proper markup and site design for optimal SEO:</p>
 
-                <h3 id="page-titles">Page Titles</h4>
+                <h3 id="page-titles">Page Titles</h3>
                 <ul>
                   <li>Super important - yet few people spend enough time on them</li>
                   <li>Encapsulate each page on your site very briefly &amp; include company info</li>
@@ -101,7 +102,7 @@
                   <li>Descriptions are the content users see in many search engines. Be accurate and descriptive, but be sure to summarize the content on the page</li>
                 </ul>
 
-                <h3 id="url-structure">URL Structure</h4>
+                <h3 id="url-structure">URL Structure</h3>
 
                 <ul>
                   <li>Like previous items, having descriptive URLs is a matter of proper site design</li>
@@ -110,7 +111,7 @@
                   <li>Site structure plays a big part here</li>
                 </ul>
 
-                <h3 id="content">Content</h4>
+                <h3 id="content">Content</h3>
 
                 <p>Content within your site is one of the biggest elements that you get ranked on. Be sure it is accurate and reflects the other elements like Meta Description, Title and any headings.</p>
 
@@ -132,8 +133,7 @@
 
                 <p>Aside from inline CSS (generally a bad idea) and embedded (better, but not scalable), there is external CSS.  Consider this to be the primary way you will reference your CSS from now on.</p>
 
-                <h3 id="considerations">Considerations</h4>
-
+                <h3 id="considerations">Considerations</h3>
                 <p>When linking to external style sheets, a few things to keep in mind:</p>
 
                 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;/css/stylesheet.css&quot;</span> <span class="na">title=</span><span class="s">&quot;Main style&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span> <span class="nt">/&gt;</span></code></pre></div>
@@ -147,7 +147,7 @@
                   <li>Each stylesheet requires it’s own link tag, or use @import to load other sheets</li>
                 </ul>
 
-                <h3 id="media-variations">Media variations</h4>
+                <h3 id="media-variations">Media variations</h3>
 
                 <ul>
                   <li>media=”type” is the essence of Responsive via a query in the media type (more next week)</li>
@@ -157,7 +157,7 @@
                   <li>This can be extremely valuable for when you have a lot of page information that you might not want to have show up on a printout (ie: navigation)</li>
                 </ul>
 
-                <h3 id="alternate-sheets">Alternate sheets</h4>
+                <h3 id="alternate-sheets">Alternate sheets</h3>
 
                 <ul>
                   <li>To specify an alternate stylesheet, use: <code class="inline">rel="alternate stylesheet"</code> within the link element:</li>
@@ -172,14 +172,14 @@
                   <li>Made famous by <a href="http://www.csszengarden.com">CSS Zen Garden</a></li>
                 </ul>
 
-                <h3 id="using-import-and-media">Using @import and @media</h4>
+                <h3 id="using-import-and-media">Using @import and @media</h3>
 
                 <ul>
                   <li>In your code and stylesheets, you can call other stylesheets with @import</li>
                   <li>A great place to be able to manage your CSS, by using @import to create a “CSS Loader” page</li>
                 </ul>
 
-                <h3 id="example">Example:</h4>
+                <h3 id="example">Example:</h3>
 
                 <p>To use a CSS Loader, from your main document: </p>
 
@@ -196,7 +196,7 @@
 
                 <p>We will do more with responsive web design next week, but for now, know that @media is the key to how it works</p>
 
-                <p>It can be done using the <link /> tag and the media=”” attribute or within a stylesheet using @media</p>
+                <p>It can be done using the &lt;link /&gt; tag and the media=”” attribute or within a stylesheet using @media</p>
 
                 <h2 id="css-selectors">CSS Selectors</h2>
 
@@ -206,7 +206,7 @@
 
                 <p>With CSS, it’s always best to create your generic/basic rules first, with your more specific selectors coming later. This is primarily because of “specificity”:</p>
 
-                <h3 id="specificity">Specificity</h4>
+                <h3 id="specificity">Specificity</h3>
 
                 <p>This is the ranking system used within CSS to ensure there are never any rules that collide and the browser is unsure what to do.  </p>
 
@@ -248,7 +248,7 @@
                 <span class="nt">li</span>
                 <span class="c">/* I=0 C=0 E=1 --&gt; 001 */</span></code></pre></div>
 
-                <h3 id="important-rule">!Important rule</h4>
+                <h3 id="important-rule">!Important rule</h3>
 
                 <p>This declaration, when added to a rule, will override almost all other declarations.</p>
 
@@ -654,12 +654,6 @@
 <span class="p">}</span></code></pre></div>
                     </article>
                 </section>
-            </div>
-
-            
-            
-
-
 
         <section id="comments">
             <h2>Comments:</h2>
@@ -679,7 +673,9 @@
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             </article>
         </section>
+
     <!--#include file="sitefooter.shtml" -->
+
 </div><!-- /div#wrap -->
 
     <!-- Highlight code -->
@@ -688,7 +684,7 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Google Code Prettify -->
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
-    <!-- UltiTop -- top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
+    <!-- UltiTop - top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
     <script src="js/easing.js" type="text/javascript"></script>
     <script src="js/jquery.ui.totop.min.js" type="text/javascript"></script>
     <script type="text/javascript">

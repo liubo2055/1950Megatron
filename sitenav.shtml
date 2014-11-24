@@ -1,17 +1,12 @@
 <nav id="sitenav">
-    <input type="checkbox" id="slide-checkbox" role="button">
+    <input type="checkbox" name="slide-checkbox" id="slide-checkbox">
     <label for="slide-checkbox" id="slide-toggle" onclick></label>
     <ul id="menuitems">
-        <li><a href="index.shtml">Home</a></li>
-        <li><a href="week1.shtml">Week 1</a></li>
-        <li><a href="#">Week 2</a></li>
-        <li><a href="#">Week 3</a></li>
-        <li><a href="#">Week 4</a></li>
-        <li><a href="#">Week 5</a></li>
-        <li><a href="#">Week 6</a></li>
-        <li><a href="#">Week 8</a></li>
-        <li><a href="#">Week 9</a></li>
-        <li><a href="#">Week 10</a></li>
-        <li><a href="#">Week 11</a></li>
+        <li><a href="front.shtml">Home</a></li>
+        <li><a href="experts.shtml">Team Intro</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="week3.shtml">Week 3 Lecture</a></li>
+        <li><a href="wireframes.shtml">Wireframes</a></li>
+        <li><a href="sitemap.shtml">Sitemap</a></li>
     </ul>
 </nav>

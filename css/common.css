@@ -23,3 +23,59 @@ pre {
 }
 
 li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 { list-style-type: decimal !important }
+
+footer,
+footer *{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #DDD;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+}
+
+
+div#credits{
+    float: left;
+    width: 70%;
+}
+
+div#credits ul{
+    margin-left: 3em;
+}
+
+div#credits a:link,
+div#credits a:visited,
+div#credits a:hover,
+div#credits a:active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6b6969;
+}
+
+div#validators{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+div#credits,
+div#validators{
+    margin-bottom: 3em;
+}
+
+
+footer h1{
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1em;
+}
+
+footer hr{
+    color: #AAA;
+    box-shadow: 2px 2px 3px #999;
+}

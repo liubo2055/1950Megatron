@@ -196,7 +196,8 @@ section#main{
 }
 
 /* COMMENTS */
-section#comments{
+section#comments,
+footer#sitefooter{
     clear: both;
     border: none;
     width: 75%;

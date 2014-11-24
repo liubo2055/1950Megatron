@@ -1,0 +1,21 @@
+<footer id="sitefooter">
+    <hr>
+    <div id="credits">
+        <h1>Brought to you By team Megatron:</h1>
+        <ul>
+            <li><a href="mailto:kcarrasco@my.bcit.ca">Kevin Carrasco</a></li>
+            <li><a href="mailto:test@my.bcit.ca">Bo Liu</a></li>
+            <li><a href="mailto:test@my.bcit.ca">Fariba Dabbaghi</a></li>
+            <li><a href="mailto:test@my.bcit.ca">Ryan Allan</a></li>
+        </ul>
+    </div>
+
+    <div id="validators">
+        <h1>This page uses valid html5 and CSS</h1>
+        <a href="http://validator.w3.org/check?uri=referer"><img
+            src="images/html5-logo.png" alt="Valid HTML5!" height="31" width="88" /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+            height="31" width="88" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a>
+    </div>
+</footer>

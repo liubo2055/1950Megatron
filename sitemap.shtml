@@ -2,29 +2,27 @@
 <html lang="en">
 <head>
 		<title>Sitemap</title>
-		<meta charset="utf-8">		
-		<link rel="stylesheet" href="sitemap.css">
-	
-	
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/sitemap.css">
 </head>
 <body>
 		<h1>Site Map</h1>
-	
+
 		<div id="menu">
 
 
 		<ul>
 		<li>
-			<ul>		
-			<li><a class="red" href="students.thenet.ca/kcarrasco/project/home.shtml">home</a></li>            			
+			<ul>
+			<li><a class="red" href="students.thenet.ca/kcarrasco/project/home.shtml">home</a></li>
 			<li><a href="students.thenet.ca/kcarrasco/project/intro.shtml">Introduction</a></li>
 			<li><a href="students.thenet.ca/kcarrasco/project/outline.shtml">outline</a></li>
 			<li><a href="students.thenet.ca/kcarrasco/project/syllabus.shtml">syllabus</a></li>
-			<li><a href="students.thenet.ca/kcarrasco/project/contact.smlh">contact info</a></li>			
+			<li><a href="students.thenet.ca/kcarrasco/project/contact.smlh">contact info</a></li>
 			</ul>
 		</li>
 		</ul>
-	
+
 
 		<ul>
 		<li>
@@ -54,7 +52,7 @@
 		</ul>
 		</li>
 		</ul>
-		
+
 
 		<ul>
 		<li>
@@ -64,11 +62,11 @@
 		</ul>
 		</li>
 		</ul>
-	
+
 
 		</div>
 
-        <p><a href="http://validator.w3.org/check?uri=referer">W3CValidator</a></p>
-	
+	<!--#include file="sitefooter.shtml" -->
+
 </body>
-</html> 
+</html>
