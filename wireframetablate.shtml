@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Wireframe</title>	
+			<meta charset="utf-8">
+<link rel="stylesheet" href="wireframe.css">
+			
+	</head>
+	<body>
+	<h1>Wireframe For Tablet</h1>
+		<table>
+	
+				<tr>		
+						<td colspan="2">
+						<h3>HEADER</h3>
+                        <h5>menu button</h5>						
+						</td>
+				</tr>
+			
+				
+				<tr>
+						<td  id="table1">
+						<h3>NAV</h3>
+						<p>Slide in site navigation</p>
+						</td>
+						
+						<td>
+						<h3> Page navigation agenda</h3><hr>
+							<h3>MAIN CONTENT</h3>
+						
+							<table>
+							<tr>
+							<td><h3>Context and Notes</h3></td>
+							</tr>
+								
+							</table>
+							<p>Comments:</p>
+						</td>
+						
+						
+						
+						
+									
+				</tr>
+				
+				
+			
+				
+				<tr>
+					<td colspan="2">
+					<h3>FOOTER</h3>
+					<p>Contains  validator and contact eamil links</p>
+					</td>
+				</tr>	
+		</table>
+	
+<p><a href="http://validator.w3.org/check?uri=referer">W3CValidator</a></p>
+
+	  </body>
+</html>
