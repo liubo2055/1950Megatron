@@ -4,7 +4,7 @@
     <ul id="menuitems">
         <li><a href="front.shtml">Home</a></li>
         <li><a href="experts.shtml">Team Intro</a></li>
-        <li><a href="#">News</a></li>
+        <li><a href="http://teammegatron.tumblr.com">News</a></li>
         <li><a href="week3.shtml">Week 3 Lecture</a></li>
         <li><a href="wireframes.shtml">Wireframes</a></li>
         <li><a href="sitemap.shtml">Sitemap</a></li>

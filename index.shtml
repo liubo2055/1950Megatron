@@ -12,6 +12,7 @@
     <title>  COMP 1950 Web Development and Design 2</title>
 </head>
 <body>
+    
     <!--#include file="siteheader.shtml" -->
 
     <div id="wrap">
@@ -160,7 +161,7 @@
         </section>
 
         <!--#include file="sitefooter.shtml" -->
-        
+
     </div><!-- /div#wrap -->
 
 <!--#include file="sitefooter.shtml" -->
