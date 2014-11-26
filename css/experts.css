@@ -78,5 +78,14 @@
     margin-right: 8em;
 }
 
+@media only screen and (max-width: 480px){
+    .cell{
+    float: left;
+    margin: 1em 2em 1em 1em;
+}
 
+#contributions .cell{
+    margin-right: 1em;
+}
+}
 
