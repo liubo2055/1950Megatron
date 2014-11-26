@@ -46,6 +46,7 @@ h2#sitetitle{
 #slide-checkbox:checked + label {
     background-image: url("../images/hamburger-white.png");
     background-color: #23241F;
+    z-index: 101;
 }
 
 #slide-checkbox{
@@ -59,7 +60,6 @@ label#slide-toggle{
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 2;
     width: 70px;
     height: 55px;
     cursor: pointer;
@@ -78,7 +78,7 @@ ul#menuitems{
     top: 55px;
     left: -500px;
     bottom: 0;
-    z-index: 0;
+    z-index: 100;
     border-style: none;
     border-color: #08232a;
     border-width: 1px;
@@ -193,5 +193,4 @@ section#main{
 /* COMMENTS */
 section#comments{
     border: none;
-    width: 75%;
 }

@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons content">
+    <meta name="description" content="BCIT COMP 1950 Web Development 2 class lessons intro page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
     <!-- UltiTop top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
     <link rel="stylesheet" media="screen" href="js/ui.totop.css">
     <!-- Highlight code -->
     <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
-    <title>  COMP 1950 Web Development and Design 2</title>
+    <title>COMP 1950 Web Development and Design 2 - Intro</title>
 </head>
 <body>
-    
     <!--#include file="siteheader.shtml" -->
 
     <div id="wrap">
@@ -20,124 +19,38 @@
             <h3>Agenda:</h3>
             <nav id="pagenav">
                 <ul>
-                    <li><a href="#intro">Intro</a></li>
-                    <li><a href="#morestuff">More stuff</a></li>
-                    <li><a href="#codeexample">Code Example</a></li>
-                    <li><a href="#somemore">Some more</a></li>
-                    <li><a href="#lastbit">Last bit</a></li>
-					<li><a href="#resources">Resource</a></li>
+                    <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#recommendation">HTML5 Recommendation</a></li>
+                    <li><a href="#comments">Comments</a></li>
                 </ul>
             </nav>
         </section>
 
         <section id="main">
-            <article id="intro">
-                <h2>Introduction</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
-                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
-                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
-                    Maecenas a augue in orci auctor congue at ut metus.
-                    Maecenas varius sem et tincidunt volutpat.
-                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
-                </p>
+            <article id="welcome">
+                <h1 class="post-title">Welcome to COMP 1950!</h1>
+
+                <p>It’s September 2014, HTML5, CSS3 and JS are generally well accepted, Microsoft has made a half decent browser and front-end web development is a solid job on it’s own!</p>
+
+                <p>In COMP 1950, we’re going to take a look at that front end stack, how it works and how you can build pages with those three technologies.</p>
+
+                <p>During the first half of the course, we will take a hard look at HTML and CSS and where we are now as web developers.  We will move on to Template development (the primary task in web development these days) and sprinkle on some JS later on.</p>
+
+                <p>For news or updates please go to our <a href="">news page</a></p>
             </article>
 
-            <article id="morestuff">
-                <h2>More stuff</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
-                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
-                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
-                    Maecenas a augue in orci auctor congue at ut metus.
-                    Maecenas varius sem et tincidunt volutpat.
-                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
-                </p>
-            </article>
+            <article id="recommendation">
+                <h1 class="post-title">HTML5 is now a recommendation</h1>
 
-            <article id="codeexample">
-                <h2 id="3">Code Example</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus.
-                </p>
-<!-- NOTE: CODE IS TAB SENSITIVE. IT NEEDS TO BE LEFT ALIGNED AS FAR AS POSSIBLE -->
-<pre class="prettyprint linenums">
+                <p>You might not realize this, but HTML5 has been a RFC (or “Request for Comment”) for the last 5 years, which means that it wasn’t an official specification.  The recent move to Recommendation status means that HTML5 is now an <em>official</em> specification.</p>
 
-    // Define our Function
-    function checkMeaningOfLife ( decimal, success ) {
-        if ( parseInt(decimal,10) === 42 ) {
-            window.console.log(success);
-        }
-    };
-    // Define our Variables
-    var str = 'The meaning of life is true',
-        decimal = 42.00;
-    // Fire our Function
-    checkMeaningOfLife(decimal,success);
-</pre>
-<pre>
-<code class="javascript">
-    // Define our Function
-    function checkMeaningOfLife ( decimal, success ) {
-        if ( parseInt(decimal,10) === 42 ) {
-            window.console.log(success);
-        }
-    };
-    // Define our Variables
-    var str = 'The meaning of life is true',
-        decimal = 42.00;
-    // Fire our Function
-    checkMeaningOfLife(decimal,success);
-</code>
-</pre>
-            </article>
+                <h1 id="what-does-this-mean">What does this mean?</h1>
 
-            <article id="somemore">
-                <h2>Some more</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
-                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
-                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
-                    Maecenas a augue in orci auctor congue at ut metus.
-                    Maecenas varius sem et tincidunt volutpat.
-                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
-                </p>
-            </article>
+                <p>Basically it means that you can now use it in any application and expect that the rules set out in the spec can (and should be) followed by developers and manufacturers.</p>
 
-            <article id="lastbit">
-                <h2>Last bit</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc a feugiat felis, vel semper augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam aliquam consequat arcu, quis congue ante ultrices vel.
-                    Morbi ac ex eget felis tincidunt dapibus. Donec eget rhoncus justo, maximus gravida est.
-                    Etiam pulvinar lectus nec risus interdum, vel pharetra purus egestas.
-                    Nulla hendrerit interdum augue sit amet congue. Aliquam enim lectus, convallis vitae pellentesque quis, fringilla at justo.
-                    Maecenas a augue in orci auctor congue at ut metus.
-                    Maecenas varius sem et tincidunt volutpat.
-                    Cras sit amet elementum felis. Cras accumsan mollis malesuada
-                </p>
-            </article>
-			 <article id="resource">
-                <h2>resources</h2>
-                <p>
-                        <li><a href="http://html5test.com/">HTML5Test</a></li>
-						<li><a href="http://www.abookapart.com/products/html5-for-web-designers">HTML5 for Web Developers</a></li>
-						<li><a href="http://introducinghtml5.com/">Introducing HTML5</a></li>
-					     <li><a href="http://diveintohtml5.info/">Dive into HTML5 </a></li>
-                </p>
+                <h1 id="further-reading">Further reading</h1>
+
+                <p>You can read more about the <a href="http://www.w3.org/TR/2014/REC-html5-20141028/introduction.html#introduction">move to recommendation status</a> or the <a href="http://www.w3.org/2014/10/html5-rec.html.en">announcement from the W3C</a>.</p>
             </article>
         </section>
 
@@ -161,10 +74,8 @@
         </section>
 
         <!--#include file="sitefooter.shtml" -->
-
+        
     </div><!-- /div#wrap -->
-
-<!--#include file="sitefooter.shtml" -->
 
 <!-- Highlight code -->
 <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>

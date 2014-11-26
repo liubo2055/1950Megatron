@@ -1,8 +1,6 @@
 /* HEADER */
 
 header#siteheader{
-    position: fixed;
-    top: 0;
     height: 55px;
     display: inline-block;
     width: 100%;
@@ -29,26 +27,29 @@ header#siteheader a:visited > span,
 header#siteheader a:hover > span,
 header#siteheader a:active > span{
     color: #790203;
-    font-size: .3em;
+    font-size: .5em;
 }
 
 h2#sitetitle{
+    font-size: 19px;
     margin-top: 13px;
 }
 
 /* SITE NAV*/
 
 #slide-checkbox:checked ~ ul#menuitems{
-/*    position: fixed; */
-    margin-top: 55px;
+    position: absolute;
+    top: 55px;
 }
 
 #slide-checkbox:checked + label {
     background-image: url("../images/hamburger-white.png");
     background-color: #23241F;
     width: 100%;
-    text-align: right;
+    z-index: 101;
 }
+
+
 
 #slide-checkbox{
     position: absolute;
@@ -58,12 +59,11 @@ h2#sitetitle{
 label#slide-toggle{
     text-align: right;
     font-weight: bold;
-    position: fixed;
+    position: absolute;
     top: 0px;
     right: 0px;
-    z-index: 2;
     height: 55px;
-    width: 40px;
+    width: 60px;
     cursor: pointer;
     background-image: url("../images/hamburger.png");
     background-size: 40px;
@@ -74,13 +74,13 @@ label#slide-toggle{
 ul#menuitems{
     list-style: none;
     background: #23241F;
-/*    position: fixed; */
-    margin-top: -2000px;
+    position: absolute;
     padding: 0;
+    margin: 0;
     right: 0;
     top: -2000px;
     width: 100%;
-    z-index: 0;
+    z-index: 100;
     border-style: none;
     border-color: #08232a;
     border-width: 1px;
@@ -168,7 +168,6 @@ nav#pagenav a:active{
 
 nav#pagenav a:hover{
     background-color: #f0f0f0;
-
 }
 
 
@@ -192,8 +191,13 @@ section#main{
     background-color: #fbfbfb;
 }
 
-/* COMMENTS */
+/* COMMENTS AND FOOTER*/
 section#comments{
-    border: none;
-    width: 75%;
+    border: none
+}
+
+footer#sitefooter div{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
 }
