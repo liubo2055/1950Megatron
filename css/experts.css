@@ -71,9 +71,12 @@
 
 .cell{
     float: left;
-    margin: 1em 2em 1em 0;
+    margin: 1em 2em 1em 5em;
 }
 
 #contributions .cell{
     margin-right: 8em;
 }
+
+
+

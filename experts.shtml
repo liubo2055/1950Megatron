@@ -84,17 +84,17 @@
             </div>
             <div class="project-content">
                 <div class="row">
-                    <div class="cell">
+                    <div class="cell" class="cellLeft">
                         <h3>Project Goals:</h3>
                         <ul>
-                            <li>easier homework, notes, code repo accessibility</li>
+                            <li>better accessibility for lecture info</li>
                             <li>responsive on all devices</li>
                             <li>neat, content first</li>
                             <li>simple to navigate throughout</li>
                         </ul>
                     </div>
 
-                    <div class="cell">
+                    <div class="cell" class="cellRight">
                         <h3>Coordinated Work</h3>
                         <ul>
                             <li>Project Methodology</li>
@@ -106,8 +106,7 @@
                 </div>
 
                 <div id="contributions" class="row">
-                    <h3>Individual Contributions</h3>
-                    <div class="cell">
+                    <div class="cell" class="cellLeft">
                         <p>
                             <h4>Kevin Carrasco(chair)</h4>
                             <ul>
@@ -127,12 +126,12 @@
                         </p>
                     </div>
 
-                    <div class="cell">
+                    <div class="cell" class="cellRight">
                         <p>
                             <h4>Ryan Allan</h4>
                             <ul>
                                 <li>Skeleton of the site</li>
-                                <li>Jquery back to top button</li>
+                                <li>JQuery back to top button</li>
                                 <li>Lecture page content</li>
                             </ul>
                         </p>
@@ -142,6 +141,7 @@
                             <ul>
                                 <li>Wireframes</li>
                                 <li>Sitemap</li>
+                                <li>Resources</li>
                             </ul>
                         </p>
                     </div>
