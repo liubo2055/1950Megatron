@@ -155,37 +155,33 @@
                 <p>--an explanation of controlling principles, opinions, and beliefs of our web design & development</p>
             </div>
             <div id="rationale-content">
-                <h3>Redesign</h3>
+                <h3>Design</h3>
 
-                <p>We are redesigning in a neat way and focusing <em>only</em> on ease of content. We believe the lecture
-                    notes are the main pillar of the website, so we've strove to keep the tutorial information clear as
-                    well as structure the site and page navigation in a way that is easy to use, helping the student to
-                    find information in a simple and fast manner. All lectures are chronological and broken down into
-                    smaller sub-groups, respectively.</p>
+                <p>We are redesigning in a neat way and focusing <strong>only</strong> on ease of content. We believe the lecture
+                    notes are the most important part of the website, so we've strove to keep the tutorial information as clear as possible. Also, we add a back-to-top button and both site and page navigation helping the student to find course information in a simple and fast manner.</p>
 
                 <h3>Funtionality</h3>
 
-                <p>All funtionality are related to the lecture notes, such as a search feature, resource links and code
-                    examples on each page for students to further seek out information related to their topic at hand,
-                    and an interactive disqus comment area for improving lecture notes.</p>
+                <p>All funtionality are related to the lecture notes, such as resource links and code
+                    examples on each page for students to further seek out information related to class topics. We also add an interactive disqus comment area for feedback of lecture notes.</p>
 
-                <p>We've intentionally decided to forego the use of fancy images, multimedia content, and anything other
-                    than what helps to achieve the goal of the site: to deliver students information.</p>
+                <p>We've intentionally decided to discard the use of fancy images, multimedia content, and anything other
+                    than what helps to achieve the goal of the site: <strong>to deliver students the best course information</strong>.</p>
 
                 <h3>News</h3>
 
-                <p>A tumblr blog was incorporated as a way for students to stay updated about current comings-and-goings
+                <p>A tumblr blog was incorporated as a way for students to stay updated about current news and announcements
                     of the class.</p>
 
                 <h3>Audience</h3>
 
-                <p>We believe that the audience should be very specific but not general in a neat design. So we make the
-                    most of every space of the site to provide particular information <em>only</em> towards students of
+                <p>We believe that the audience should be very specific but not general. So we make the
+                    most of every space of the site to provide particular information <strong>only</strong> towards students of
                         the ongoing class.</p>
 
                 <h3>Marketing</h3>
 
-                <p>The COMP1950 website is primarily an educational tool. With that, we've foregone any attempt to
+                <p>The COMP1950 website is primarily for COMP1950 class. So we've foregone any attempt to
                     devise plans for marketing.</p>
 
                 <h3>Compatibility</h3>
@@ -193,7 +189,7 @@
                 <p>The design of the website uses HTML5 and CSS3. We've ensured that each page and line of code has been
                     validated by the WC3. And the site will render well on mobile phones, tablets, etc, as we did
                     anticipate that these platforms would be used by the audience regularly to access information. The
-                    navigation menu was redesigned to the top right on mobile phones for better user experience.</p>
+                    navigation menu was redesigned to the top right on mobile phones for better user experience. Wireframes for desktop, tablet and mobile are all provided.</p>
             </div>
         </article>
     </section>
