@@ -69,23 +69,92 @@
     margin: .5em;
 }
 
-.cell{
+.cellLeft{
     float: left;
-    margin: 1em 2em 1em 5em;
+    margin: 1em 2em 1em 4em;
 }
 
-#contributions .cell{
-    margin-right: 8em;
+.cellRight{
+    float: left;
+    margin: 1em 2em 1em 2em;
 }
+
+.cellRightMember{
+    float: left;
+    margin: 1em 2em 1em 8em;
+}
+
+#wrap{
+    min-width: 1210px;
+}
+
+@media only screen and (max-width: 1210px){
+    .cellLeft{
+        margin: 1em 0.5em 1em 1em;
+    }
+
+    .cellRight{
+        margin: 1em 2em 1em 1em;
+    }
+
+    .cellRightMember{
+        margin: 1em 2em 1em 6em;
+    }
+
+    #wrap{
+        min-width: 1040px;
+    }
+}
+
+
+@media only screen and (max-width: 1040px){
+    .cellLeft{
+        margin: 1em 0.5em 1em 0.5em;
+    }
+
+    .cellRight{
+        margin: 1em 0.5em 1em 0.5em;
+    }
+
+    .cellRightMember{
+        margin: 1em 0.5em 1em 6em;
+    }
+
+    #wrap{
+        min-width: 770px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .cellLeft{
+        margin: 1em 1em 1em 4em;
+    }
+
+    .cellRight{
+        margin: 1em 0em 1em 4em;
+    }
+
+    .cellRightMember{
+        margin: 1em 2em 1em 4em;
+    }
+
+    #wrap{
+        min-width: 480px;
+    }
+}
+
 
 @media only screen and (max-width: 480px){
-    .cell{
-    float: left;
+    .cellLeft{
     margin: 1em 2em 1em 1em;
 }
 
-#contributions .cell{
-    margin-right: 1em;
+    .cellRight{
+        margin: 1em 2em 1em 1em;
 }
+
+    .cellRightMember{
+        margin: 1em 2em 1em 1em;
+    }
 }
 
