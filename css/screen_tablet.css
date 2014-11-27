@@ -1,7 +1,7 @@
 /* HEADER */
 
 header#siteheader{
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 55px;
     display: inline-block;
@@ -39,7 +39,7 @@ h2#sitetitle{
 /* SITE NAV*/
 
 #slide-checkbox:checked ~ ul#menuitems{
-    position: fixed;
+    position: absolute;
     left: 0px;
 }
 
@@ -57,7 +57,7 @@ h2#sitetitle{
 label#slide-toggle{
     text-align: center;
     font-weight: bold;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 70px;
@@ -72,12 +72,11 @@ label#slide-toggle{
 ul#menuitems{
     list-style: none;
     background: #23241F;
-    position: fixed;
+    position: absolute;
     margin: 0;
     padding: 0;
     top: 55px;
     left: -500px;
-    bottom: 0;
     z-index: 100;
     border-style: none;
     border-color: #08232a;

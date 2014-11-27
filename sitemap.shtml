@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<title>Sitemap</title>
-		<meta charset="utf-8">		
-		<link rel="stylesheet" href="sitemap.css">
-	
-	
+	<meta charset="UTF-8">
+	<meta name="description" content="BCIT COMP 1950 Web Development 2 Sitemap">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/sitemap.css">
+	<!-- UltiTop top of page jQuery - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ -->
+	<link rel="stylesheet" media="screen" href="js/ui.totop.css">
+	<!-- Highlight code -->
+	<link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+	<title>  COMP 1950 Web Development and Design 2 - Sitemap</title>
 </head>
 <body>
-		<h1>Site Map</h1>
-	
-		<div id="menu">
+
+	<!--#include file="siteheader.shtml" -->
+
+	<div id="wrap">
+		<section id="main">
+			<h1>Site Map</h1>
+
+			<div id="menu">
 
 
-		<ul>
-		<li>
-			<ul>		
-			<li><a class="red">home</a></li>
-	<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml">Aboue Comp 1950</a></li>			
-			<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml#recommendation">Html5 Recommendation</a></li>
-			<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml#comments">Comments</a></li>
-						
+			<ul>
+			<li>
+				<ul>
+				<li><a class="red">home</a></li>
+				<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml">About Comp 1950</a></li>
+				<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml#recommendation">Html5 Recommendation</a></li>
+				<li><a href="http://students.thenet.ca/kcarrasco/project/index.shtml#comments">Comments</a></li>
+
+				</ul>
+			</li>
 			</ul>
-		</li>
-		</ul>
-	
 
-		<ul>
-		<li>
-		<ul>
-		<li><a class="red">Team Introduction</a></li>		
-			<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#team">Team</a></li>
-				<li><a href=" http://students.thenet.ca/kcarrasco/project/experts.shtml#project">Project</a></li>
-					<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#rationale">Rationale</a></li>
-						<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#comments">Comments</a></li>
-		</ul>
-		</li>
-		</ul>
-		
 
-		<ul>
-		<li>
-		<ul>
-		<li><a class="red">Week 3 Lecture</a></li>
-		<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#reminders">Reminers</a></li>
-		<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#review-homework">Review of homework</a></li>
-		<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#seo-basics">SEO Basics</a></li>
-		<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#css-review">Css Review</a></li>
-			<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#homework">Week 3 Homework</a></li>
-				<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#comments">comments</a></li>
-		</ul>
-		</li>
-		</ul>
-		
+			<ul>
+			<li>
+			<ul>
+			<li><a class="red">Team Introduction</a></li>
+				<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#team">Team</a></li>
+					<li><a href=" http://students.thenet.ca/kcarrasco/project/experts.shtml#project">Project</a></li>
+						<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#rationale">Rationale</a></li>
+							<li><a href="http://students.thenet.ca/kcarrasco/project/experts.shtml#comments">Comments</a></li>
+			</ul>
+			</li>
+			</ul>
 
-		<ul>
-		<li>
-		<ul>
-			<li><a href=" http://teammegatron.tumblr.com/">News</a></li>
-				<li><a href="http://students.thenet.ca/kcarrasco/project/wireframes.shtml">Wireframes</a></li>
-		
-		</ul>
-		</li>
-		</ul>
-	
 
-		</div>
-	
+			<ul>
+			<li>
+			<ul>
+			<li><a class="red">Week 3 Lecture</a></li>
+			<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#reminders">Reminers</a></li>
+			<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#review-homework">Review of homework</a></li>
+			<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#seo-basics">SEO Basics</a></li>
+			<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#css-review">Css Review</a></li>
+				<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#homework">Week 3 Homework</a></li>
+					<li><a href="http://students.thenet.ca/kcarrasco/project/week3.shtml#comments">comments</a></li>
+			</ul>
+			</li>
+			</ul>
 
-        <p><a href="http://validator.w3.org/check?uri=referer">W3CValidator</a></p>
-	
+
+			<ul>
+			<li>
+			<ul>
+				<li><a class="red" href=" http://teammegatron.tumblr.com/">News</a></li>
+					<li><a href="http://students.thenet.ca/kcarrasco/project/wireframes.shtml">Wireframes</a></li>
+
+			</ul>
+			</li>
+			</ul>
+
+
+			</div>
+		</section>
+
+		<!--#include file="sitefooter.shtml" -->
+
+	</div> <!-- /#wrap -->
+
 </body>
-</html> 
+</html>

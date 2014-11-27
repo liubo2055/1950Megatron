@@ -36,7 +36,7 @@
 
                 <p>During the first half of the course, we will take a hard look at HTML and CSS and where we are now as web developers.  We will move on to Template development (the primary task in web development these days) and sprinkle on some JS later on.</p>
 
-                <p>For news or updates please go to our <a href="">news page</a></p>
+                <p>For news or updates please go to our <a href="http://teammegatron.tumblr.com">news page</a></p>
             </article>
 
             <article id="recommendation">
@@ -74,7 +74,7 @@
         </section>
 
         <!--#include file="sitefooter.shtml" -->
-        
+
     </div><!-- /div#wrap -->
 
 <!-- Highlight code -->
